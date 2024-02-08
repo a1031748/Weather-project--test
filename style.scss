@@ -1,0 +1,44 @@
+$color_gold: #b99362;
+
+*{
+    font-family: 'Fjalla One', sans-serif;
+}
+body{
+    background-color: #222;
+}
+svg{
+    height: 100vh;
+   
+}
+path{
+    stroke: #fff;
+    fill: transparent;
+    &:hover{   
+        fill: $color_gold;
+        transition: 0.5s;
+        transform: translate(-5px, -5px);
+    }
+    
+
+
+}
+.title_area{
+    position: absolute;
+    color: white;
+    right: 200px;
+    top: 20px;
+    font-size: 30px;
+    span{
+        color: $color_gold;
+    }
+    hr{
+        width: 100px;
+        margin-left: 0;
+        border: none;
+        border-bottom: solid 2px white;
+        
+    }
+    .forecast h2,h4,h5{
+        margin: 0;
+    }
+}

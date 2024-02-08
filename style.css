@@ -1,0 +1,41 @@
+* {
+  font-family: "Fjalla One", sans-serif;
+}
+
+body {
+  background-color: #222;
+}
+
+svg {
+  height: 100vh;
+}
+
+path {
+  stroke: #fff;
+  fill: transparent;
+}
+path:hover {
+  fill: #b99362;
+  transition: 0.5s;
+  transform: translate(-5px, -5px);
+}
+
+.title_area {
+  position: absolute;
+  color: white;
+  right: 200px;
+  top: 20px;
+  font-size: 30px;
+}
+.title_area span {
+  color: #b99362;
+}
+.title_area hr {
+  width: 100px;
+  margin-left: 0;
+  border: none;
+  border-bottom: solid 2px white;
+}
+.title_area .forecast h2, .title_area h4, .title_area h5 {
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */
